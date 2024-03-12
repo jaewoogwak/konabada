@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+}
+
+.nav-container {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    background-color: rgb(111, 111, 208);
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.function {
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

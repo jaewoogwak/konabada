@@ -1,0 +1,148 @@
+/* CSS styles for your home screen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+.board-wrapper {
+    margin: 0 auto;
+    width: 1200px;
+    border: 0.5px solid grey;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.board-wrapper-hot {
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 1200px;
+    border: 0.5px solid grey;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    text-align: center;
+}
+thead {
+    border-bottom: 0.5px solid gray;
+}
+tr {
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+}
+
+.board {
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+.board {
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid grey;
+
+    text-decoration: none;
+    color: black;
+}
+
+.search {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    height: 25px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.btn-login {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(236, 245, 219);
+}
+
+.btn-logout {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(236, 245, 219);
+    margin-right: 20px;
+}
+
+.btn-signup {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(236, 245, 219);
+    margin-right: 20px;
+}
+
+.form-control {
+    height: 30px;
+    padding-left: 10px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(111, 111, 208);
+    color: white;
+}
